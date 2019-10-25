@@ -26,7 +26,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="os.name" value="Linux"/>
     <property name="net.sourceforge.cobertura.datafile" value="/home/satanas/Documents/Master I/Ingénierie du dév. logiciel/DevOps/tpmaven/target/cobertura/cobertura.ser"/>
-    <property name="classworlds.conf" value="/home/satanas/eclipse-workspace/.metadata/.plugins/org.eclipse.m2e.launching/launches/m2conf16089504354955052639.tmp"/>
+    <property name="classworlds.conf" value="/home/satanas/eclipse-workspace/.metadata/.plugins/org.eclipse.m2e.launching/launches/m2conf2759472591442789079.tmp"/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
     <property name="java.library.path" value="/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
@@ -43,7 +43,7 @@
     <property name="java.vm.specification.version" value="1.8"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="java.home" value="/home/satanas/Téléchargements/jdk-8u231-linux-x64/jdk1.8.0_231/jre"/>
-    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B clean site"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B clean site install"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
     <property name="user.language" value="fr"/>
     <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>

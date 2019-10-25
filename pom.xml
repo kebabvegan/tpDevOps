@@ -66,6 +66,33 @@
           </archive>
         </configuration>
       </plugin>
+      <plugin>
+        <!-- NOTE: We don't need a groupId specification because the group is
+             org.apache.maven.plugins ...which is assumed by default.
+         -->
+        <artifactId>maven-assembly-plugin</artifactId>
+        <version>3.1.1</version>
+        <configuration>
+                    <descriptorRefs>
+                        <descriptorRef>jar-with-dependencies</descriptorRef>
+                        <descriptorRef>bin</descriptorRef>
+                        <descriptorRef>src</descriptorRef>
+                        <descriptorRef>project</descriptorRef>
+                    </descriptorRefs>
+                    <descriptors>
+                         <descriptor>src/main/assembly/assemblyfile.xml</descriptor>
+                    </descriptors>
+                </configuration>
+                <executions>
+                    <execution>
+                        <id>trigger-assembly</id>
+                        <phase>package</phase>
+                        <goals>
+                            <goal>single</goal>
+                        </goals>
+                    </execution>
+                </executions>
+        </plugin>
     </plugins>
  </build>  
  
